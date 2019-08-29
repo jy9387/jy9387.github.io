@@ -116,8 +116,8 @@
         var data = res.list[j].arr;
         var liTmpl = "";
         for (var i = 0, len = data.link.length; i < len; i++) {
-          var minSrc = 'http://share-photo.oss-cn-hangzhou.aliyuncs.com/photos/blog/greece/' + data.link[i] + '.mini.jpg';
-          var src = 'http://share-photo.oss-cn-hangzhou.aliyuncs.com/photos/blog/greece/' + data.link[i] + '.jpg';
+          var minSrc = 'http://share-photo.oss-cn-hangzhou.aliyuncs.com/photos/' + data.link[i] + '.mini.jpg';
+          var src = 'http://share-photo.oss-cn-hangzhou.aliyuncs.com/photos/' + data.link[i] + '.jpg';
           var type = data.type[i];
           var target = src// + (type === 'video' ? '.mp4' : '.JPG');
           // src += '.jpg';
